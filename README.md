@@ -18,6 +18,15 @@ $ docker-compose up --build -d
 $ docker-compose start
 $ docker-compose stop
 
+$ docker container ls
+
+## gateway e IP de mysql
+-----------------------------
+$ docker inspect id_contenedor_mysql
+
+## IP de mysql
+$ docker inspect id_contenedor_mysql | grep IPAddress
+
 ## acceder a docker mysql
 ------------------------
 docker exec -i -t 15fc58cfd6af /bin/bash
@@ -29,7 +38,7 @@ pss: dbpass
 ## acceso desde navegador
 --------------------------------------------
 http://localhost:8081/pdo/conexion.php
-http://localhost:8081/index.php
+http://localhost:8081/info.php
 
 ## acceso desde consola (local) a docker mysql
 --------------------------------------------------------------
