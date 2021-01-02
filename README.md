@@ -1,5 +1,5 @@
 # Crear estructura con Docker para PHP Core y MySQL
-no es necesario wmapserver, xmapp etc
+no es necesario wampserver, xmapp etc
 realizado sobre linux ubuntu 20.04
 ------------------------------------------------------
 
